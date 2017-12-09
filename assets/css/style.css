@@ -114,12 +114,12 @@ p{
 }
 
 .yellow{
-	color: #dbfdff !important;
+	color: #c9fdfb !important;
 }
 
 .bolder {
     font-weight: 900;
-    color:#dbfdff;
+    color:#c9fdfb;
 }
 
 .uppercase{
@@ -422,7 +422,6 @@ a{
 	.module-subtitle {
     	text-align: center;
     	margin: 15px 0 15px;
-    	font-size: 14px;
 	}
 
 	.module-description {
@@ -446,7 +445,7 @@ a{
     text-align: center;
     font-weight: 400 !important;
     letter-spacing: 5px;
-    color: #dbfdff;
+    color: #c9fdfb;
     font-size: 25px;
 }
 
@@ -828,7 +827,7 @@ ul.tags li a:hover{
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.96);
+    background: #FFF;
     z-index: 2;
     text-align: center;
     padding: 50px 0;
@@ -863,7 +862,7 @@ ul.tags li a:hover{
     border-radius: 0.25em;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    color: #fff;
+    color: #777;
     text-decoration: none;
 		letter-spacing: 2px;
 }
@@ -877,7 +876,7 @@ ul.tags li a:hover{
 }
 
 .box-primary-nav .box-label {
-    color: #e8e0b0;
+    color: #9d84bd;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -954,7 +953,7 @@ b{
 }
 
 b i:last-child {
-    color: #dbfdff !important;
+    color: #c9fdfb !important;
 }
 
 .box-intro h1{
@@ -1392,7 +1391,7 @@ footer a:hover {
 
 .facts {
 		padding: 100px 0 50px 0;
-		background-color: #dbfdff;
+		background-color: #c9fdfb;
 		border-top: 15px double #ffffff
 }
 
@@ -1451,7 +1450,7 @@ footer a:hover {
 -------------------------------- */
 .features {
 	padding: 100px 0 100px 0;
-	background-color: #dbfdff;
+	background-color: #c9fdfb;
 	border-top: 15px double #fff;
 }
 
@@ -1499,8 +1498,8 @@ footer a:hover {
 	  color: #000;
 	  font-size: 40px;
 	  font-weight: 700;
-	  margin-top: -145px;
-	  margin-bottom: 100px;
+	  margin-top: 50px;
+	  margin-bottom: 50px;
 }
 
 .services {
@@ -1648,7 +1647,7 @@ footer a:hover {
 	display: inline-block;
 	background-color: #000;
 	padding: 5px;
-	color:#dbfdff;
+	color:#c9fdfb;
 	margin-top: 5px;
 	-webkit-transform:translateY(20px);
 	    -ms-transform:translateY(20px);
@@ -1685,7 +1684,7 @@ footer a:hover {
 
 
 .process-numbers {
-		color: #dbfdff;
+		color: #9d84bd;
 		font-weight: 700;
 		font-size: 150px;
 		text-transform: uppercase;
@@ -1757,7 +1756,7 @@ footer a:hover {
 
 .member-thumb:hover .overlay {
     cursor: url(../img/eye.png), auto;
-    opacity: 0.8;
+    opacity: 1;
     -webkit-transform: rotateY(0deg) scale(1,1);
     -moz-transform: rotateY(0deg) scale(1,1);
     -ms-transform: rotateY(0deg) scale(1,1);
@@ -1886,9 +1885,8 @@ footer a:hover {
 
 -------------------------------- */
  #clients{
-	 background-color: #dbfdff;
+	 background-color: #c9fdfb;
 	 padding: 0 0 50px;
-	 border-bottom: 15px double #fff;
  }
 
  .svgcolor-light, .svgcolor-dark {
@@ -2044,7 +2042,7 @@ footer a:hover {
 -------------------------------- */
 
 .site-hero_2 {
-    background: url("../img/site-hero2.jpg") no-repeat;
+    background: url("../img/consulta.jpg") no-repeat;
     background-size: cover;
     height: 600px;
     width: 100%;
@@ -2062,12 +2060,364 @@ footer a:hover {
 }
 
 .site-hero_2 h2{
-		color: #777;
+	color: #777;
     text-transform: uppercase;
     font-size: 25px;
     line-height: 2;
     letter-spacing: 10px
 }
+
+/*CONSULTA*/
+.site-hero_3 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/consulta.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_3 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_3 h2{
+    color: #c9fdfb;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN CONSULTA*/
+
+/*ACNÉ*/
+.site-hero_4 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/acnech.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_4 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_4 h2{
+    color: #c9fdfb;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN ACNÉ*/
+
+/*DERMATOLOGIA*/
+.site-hero_5 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/dermatologia.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_5 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_5 h2{
+    color: #c9fdfb;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN DERMATOLOGIA*/
+
+/*ENVEJECMIENTO*/
+.site-hero_6 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/envejecimiento.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_6 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_6 h2{
+    color: #c9fdfb;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN ENVEJECIMIENTO*/
+
+/*HIDRODERMOABRASIÓN*/
+.site-hero_7 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/hombremetroch.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_7 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_7 h2{
+    color: #c9fdfb;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN HIDRODERMOABRASIÓN*/
+
+/*LUNARES*/
+.site-hero_8 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/molespalda.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_8 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_8 h2{
+    color: #c9fdfb;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN LUNARES*/
+
+/*MICRODERMOABRASIÓN*/
+.site-hero_9 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/radiofrecuenciach.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_9 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_9 h2{
+    color: #c9fdfb;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN MICRODERMOABRASIÓN*/
+
+/*CABELLO*/
+.site-hero_10 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/pelo.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_10 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_10 h2{
+    color: #c9fdfb;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN CABELLO*/
+
+/*RADIOFRECUENCIA*/
+.site-hero_11 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/microdermo2.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_11 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_11 h2{
+    color: #c9fdfb;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN RADIOFRECUENCIA*/
+
+/*UÑAS*/
+.site-hero_12 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/unia.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_12 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_12 h2{
+    color: #c9fdfb;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN UÑAS*/
+
+
 
 .small-title{
 		color: #777;
@@ -2276,7 +2626,7 @@ ul.services-list li{
 	  bottom: -22px;
 	  left: -22px;
 	  z-index: -1;
-	  color: #dbfdff;
+	  color: #c9fdfb;
 	  font-weight: bold;
 	  font-size: 90px;
 }
@@ -2308,7 +2658,7 @@ ul.services-list li{
 
 .srv_pricing {
 		padding: 0 0 100px;
-		background: #dbfdff;
+		background: #c9fdfb;
 		border-bottom: 15px double #fff;
 }
 
@@ -2372,7 +2722,7 @@ ul.services-list li{
 }
 
 .detail i {
-    color: #777;
+    color: #9d84bd;
     font-size: 50px;
 }
 
@@ -2442,4 +2792,29 @@ ul.services-list li{
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 300;
+}
+
+@media screen and (max-width:860px) {
+    .section-title-parralax h2{
+        font-size: 6vw;
+    }
+    .services h2{
+      font-size: 6vw;
+    }
+}
+@media screen and (max-width:360px) {
+    .module-subtitle{
+        width: 320px;
+    }
+}
+
+hr.space-blue{
+    width: 35vw;
+    margin: 0 auto;
+    border: solid 3px #c9fdfb;
+    box-shadow: 5px 5px 3px #9d84bd;
+}
+
+.no-transp{
+    background: rgba(255, 255, 255, 0.7) !important;
 }
