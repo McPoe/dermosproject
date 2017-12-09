@@ -267,3 +267,9 @@ html[xmlns] .flexslider .slides {
     display: none;
   }
 }
+
+@media screen and (max-width:420px) {
+  .slides{
+    width: 92vw !important;
+  }
+}
