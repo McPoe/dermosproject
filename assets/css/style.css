@@ -278,7 +278,7 @@ section{
 }
 
 .mbr-section--full-height {
-    height: 100vh;
+    height: 80vh;
 }
 .mbr-section--fixed-size {
     overflow: hidden;
@@ -685,7 +685,7 @@ ul.tags li a:hover{
     left: 0;
     height: 50px;
     width: 100%;
-    z-index: 3;
+    z-index: 4;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -828,7 +828,7 @@ ul.tags li a:hover{
     height: 100%;
     width: 100%;
     background: #FFF;
-    z-index: 2;
+    z-index: 3;
     text-align: center;
     padding: 50px 0;
     -webkit-backface-visibility: hidden;
@@ -1880,7 +1880,7 @@ footer a:hover {
  .svgcolor-light, .svgcolor-dark {
     position: relative;
     top: -2px;
-    z-index: 3;
+    z-index: 2;
 }
 
 #owl-demo{
@@ -2404,6 +2404,111 @@ footer a:hover {
     letter-spacing: 10px
 }
 /*FIN UÑAS*/
+
+/*DEPILACIÓN*/
+.site-hero_13 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/depilacionch.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_14 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_14 h2{
+    color: #C9F4FD;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN DEPILACIÓN*/
+
+/*PEELING*/
+.site-hero_14 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/dermo.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_14 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_14 h2{
+    color: #C9F4FD;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN PEELING*/
+
+/*LUZ PULSADA INTENSA PARA MANCHAS Y ENVEJECIMIENTO*/
+.site-hero_15 {
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/radiofrecuenciach.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.site-hero_15 .page-title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.site-hero_15 h2{
+    color: #C9F4FD;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+/*FIN LUZ PULSADA INTENSA PARA MANCHAS Y ENVEJECIMIENTO*/
 
 
 
