@@ -1670,7 +1670,11 @@ footer a:hover {
 		padding: 0 0 10px;
 }
 
-
+.infodoc{
+    text-align: left;
+    padding-left: 35px;
+    padding-right: 35px;
+}
 .process-numbers {
 		color: #9d84bd;
 		font-weight: 700;
@@ -1712,8 +1716,8 @@ footer a:hover {
 }
 
 .member-thumb .overlay h6 {
-		font-size: 15px;
-		line-height: 24px;
+		font-size: 1.1em;
+		line-height: 10px;
 		margin-top: 50%;
 		text-transform: uppercase;
 		color: #333;
@@ -1721,15 +1725,16 @@ footer a:hover {
 }
 
 .member-thumb .overlay p {
-    font-size: 15px;
+    font-size: 0.9em;
     color: #777;
     opacity: .5;
     font-weight: 400;
+    line-height: 17px;
 }
 
 .member-thumb .overlay {
-    padding: 100px 0;
-    line-height: 24px;
+    padding: 8vw 0;
+    line-height: 22px;
 }
 
 .team-member h6 {
@@ -1947,7 +1952,34 @@ footer a:hover {
     padding: 200px 0 200px;
     color: #fff;
 }
+
+.hideresp{
+    display: none;
 	}
+.showresp{
+    display: block !important;
+    margin: 0 auto;
+}
+
+.member-thumb .overlay {
+    padding: 100px 0;
+}
+
+.member-thumb .overlay h6 {
+        font-size: 1.1em;
+        line-height: 24px;
+        margin-top: 80%;
+}
+
+.member-thumb .overlay p {
+    font-size: 1em;
+}
+.infodoc{
+    text-align: left;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+}
 
 
 
